@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950CA5EE1C77D2B700008DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CA5ED1C77D2B700008DAF /* AppDelegate.swift */; };
+		950CA5F01C77D2B700008DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CA5EF1C77D2B700008DAF /* ViewController.swift */; };
+		950CA5F31C77D2B700008DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950CA5F11C77D2B700008DAF /* Main.storyboard */; };
+		950CA5F51C77D2B700008DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950CA5F41C77D2B700008DAF /* Assets.xcassets */; };
+		950CA5F81C77D2B700008DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950CA5F61C77D2B700008DAF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		950CA5EA1C77D2B700008DAF /* Apple Newton’s Cradle Full Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Newton’s Cradle Full Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950CA5ED1C77D2B700008DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		950CA5EF1C77D2B700008DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		950CA5F21C77D2B700008DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		950CA5F41C77D2B700008DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		950CA5F71C77D2B700008DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		950CA5F91C77D2B700008DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		950CA5E71C77D2B700008DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950CA5E11C77D2B700008DAF = {
+			isa = PBXGroup;
+			children = (
+				950CA5EC1C77D2B700008DAF /* Apple Newton’s Cradle Full Application */,
+				950CA5EB1C77D2B700008DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		950CA5EB1C77D2B700008DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950CA5EA1C77D2B700008DAF /* Apple Newton’s Cradle Full Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		950CA5EC1C77D2B700008DAF /* Apple Newton’s Cradle Full Application */ = {
+			isa = PBXGroup;
+			children = (
+				950CA5ED1C77D2B700008DAF /* AppDelegate.swift */,
+				950CA5EF1C77D2B700008DAF /* ViewController.swift */,
+				950CA5F11C77D2B700008DAF /* Main.storyboard */,
+				950CA5F41C77D2B700008DAF /* Assets.xcassets */,
+				950CA5F61C77D2B700008DAF /* LaunchScreen.storyboard */,
+				950CA5F91C77D2B700008DAF /* Info.plist */,
+			);
+			path = "Apple Newton’s Cradle Full Application";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		950CA5E91C77D2B700008DAF /* Apple Newton’s Cradle Full Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950CA5FC1C77D2B700008DAF /* Build configuration list for PBXNativeTarget "Apple Newton’s Cradle Full Application" */;
+			buildPhases = (
+				950CA5E61C77D2B700008DAF /* Sources */,
+				950CA5E71C77D2B700008DAF /* Frameworks */,
+				950CA5E81C77D2B700008DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple Newton’s Cradle Full Application";
+			productName = "Apple Newton’s Cradle Full Application";
+			productReference = 950CA5EA1C77D2B700008DAF /* Apple Newton’s Cradle Full Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		950CA5E21C77D2B700008DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pawel Bednarczyk";
+				TargetAttributes = {
+					950CA5E91C77D2B700008DAF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 950CA5E51C77D2B700008DAF /* Build configuration list for PBXProject "Apple Newton’s Cradle Full Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 950CA5E11C77D2B700008DAF;
+			productRefGroup = 950CA5EB1C77D2B700008DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950CA5E91C77D2B700008DAF /* Apple Newton’s Cradle Full Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		950CA5E81C77D2B700008DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950CA5F81C77D2B700008DAF /* LaunchScreen.storyboard in Resources */,
+				950CA5F51C77D2B700008DAF /* Assets.xcassets in Resources */,
+				950CA5F31C77D2B700008DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		950CA5E61C77D2B700008DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950CA5F01C77D2B700008DAF /* ViewController.swift in Sources */,
+				950CA5EE1C77D2B700008DAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		950CA5F11C77D2B700008DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				950CA5F21C77D2B700008DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		950CA5F61C77D2B700008DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				950CA5F71C77D2B700008DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		950CA5FA1C77D2B700008DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		950CA5FB1C77D2B700008DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		950CA5FD1C77D2B700008DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Apple Newton’s Cradle Full Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pawelbednarczyk.Apple-Newton-s-Cradle-Full-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		950CA5FE1C77D2B700008DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Apple Newton’s Cradle Full Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pawelbednarczyk.Apple-Newton-s-Cradle-Full-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		950CA5E51C77D2B700008DAF /* Build configuration list for PBXProject "Apple Newton’s Cradle Full Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CA5FA1C77D2B700008DAF /* Debug */,
+				950CA5FB1C77D2B700008DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950CA5FC1C77D2B700008DAF /* Build configuration list for PBXNativeTarget "Apple Newton’s Cradle Full Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CA5FD1C77D2B700008DAF /* Debug */,
+				950CA5FE1C77D2B700008DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 950CA5E21C77D2B700008DAF /* Project object */;
+}
